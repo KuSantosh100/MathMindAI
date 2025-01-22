@@ -56,6 +56,7 @@ export default function Home() {
           id='canvas'
           className='absolute top-0 left-0 w-full h-full'
           onMouseDown={startDrawing}
+          onMouseMove={draw}
           onMouseOut={stopDrawing}
           onMouseUp={stopDrawing}
         />
